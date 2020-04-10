@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		82B24D051E521D6000182A37 /* TouchBarKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B24D051E521D6000182A37 /* Clyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B24D081E521D6000182A37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		82B24D091E521D6000182A37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		82B24D0C1E521D6000182A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		82B24CFC1E521D6000182A37 = {
 			isa = PBXGroup;
 			children = (
-				82B24D071E521D6000182A37 /* TouchBarKeyboard */,
+				82B24D071E521D6000182A37 /* Clyde */,
 				82B24D361E5223D800182A37 /* Frameworks */,
 				82B24D061E521D6000182A37 /* Products */,
 			);
@@ -50,12 +50,12 @@
 		82B24D061E521D6000182A37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82B24D051E521D6000182A37 /* TouchBarKeyboard.app */,
+				82B24D051E521D6000182A37 /* Clyde.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82B24D071E521D6000182A37 /* TouchBarKeyboard */ = {
+		82B24D071E521D6000182A37 /* Clyde */ = {
 			isa = PBXGroup;
 			children = (
 				82B24D081E521D6000182A37 /* AppDelegate.h */,
@@ -66,7 +66,7 @@
 				82B24D131E521D6000182A37 /* Info.plist */,
 				82B24D0B1E521D6000182A37 /* Supporting Files */,
 			);
-			path = TouchBarKeyboard;
+			path = Clyde;
 			sourceTree = "<group>";
 		};
 		82B24D0B1E521D6000182A37 /* Supporting Files */ = {
@@ -88,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82B24D041E521D6000182A37 /* TouchBarKeyboard */ = {
+		82B24D041E521D6000182A37 /* Clyde */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82B24D2C1E521D6000182A37 /* Build configuration list for PBXNativeTarget "TouchBarKeyboard" */;
+			buildConfigurationList = 82B24D2C1E521D6000182A37 /* Build configuration list for PBXNativeTarget "Clyde" */;
 			buildPhases = (
 				82B24D011E521D6000182A37 /* Sources */,
 				82B24D021E521D6000182A37 /* Frameworks */,
@@ -100,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = TouchBarKeyboard;
+			name = Clyde;
 			productName = TouchBarTest;
-			productReference = 82B24D051E521D6000182A37 /* TouchBarKeyboard.app */;
+			productReference = 82B24D051E521D6000182A37 /* Clyde.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 82B24D001E521D6000182A37 /* Build configuration list for PBXProject "TouchBarKeyboard" */;
+			buildConfigurationList = 82B24D001E521D6000182A37 /* Build configuration list for PBXProject "Clyde" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82B24D041E521D6000182A37 /* TouchBarKeyboard */,
+				82B24D041E521D6000182A37 /* Clyde */,
 			);
 		};
 /* End PBXProject section */
@@ -290,9 +290,9 @@
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
-				INFOPLIST_FILE = TouchBarKeyboard/Info.plist;
+				INFOPLIST_FILE = Clyde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaeyp.touchbarkeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeyp.clyde;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -307,9 +307,9 @@
 					"$(inherited)",
 					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
 				);
-				INFOPLIST_FILE = TouchBarKeyboard/Info.plist;
+				INFOPLIST_FILE = Clyde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaeyp.touchbarkeyboard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaeyp.clyde;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82B24D001E521D6000182A37 /* Build configuration list for PBXProject "TouchBarKeyboard" */ = {
+		82B24D001E521D6000182A37 /* Build configuration list for PBXProject "Clyde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82B24D2A1E521D6000182A37 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82B24D2C1E521D6000182A37 /* Build configuration list for PBXNativeTarget "TouchBarKeyboard" */ = {
+		82B24D2C1E521D6000182A37 /* Build configuration list for PBXNativeTarget "Clyde" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				82B24D2D1E521D6000182A37 /* Debug */,

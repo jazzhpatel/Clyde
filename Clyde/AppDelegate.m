@@ -1,20 +1,20 @@
 //
 //  AppDelegate.m
-//  TouchBarKeyboard
+//  Clyde
 //
-//  Created by Ruben Nic on 5/3/19.
-//  Copyright © 2019 Ruben Nic. All rights reserved.
+//  Created by Jaey P on 10/4/20.
+//  Copyright © 2019 Jaey P. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "TouchBar.h"
 
 static const NSTouchBarItemIdentifier kCapsLockIdentifier =
-    @"com.rubennic.CapsLock";
+    @"com.jaeyp.CapsLock";
 static const NSTouchBarItemIdentifier kScrollGroupIdentifier =
-    @"com.rubennic.ScrollGroup";
+    @"com.jaeyp.ScrollGroup";
 static const NSTouchBarItemIdentifier kKeyboardIdentifier =
-    @"com.rubennic.Keyboard";
+    @"com.jaeyp.Keyboard";
 
 static const int kLeftShiftKeyCode = 56;
 static const int kRightShiftKeyCode = 60;

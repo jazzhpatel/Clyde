@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  TouchBarKeyboard
+//  Clyde
 //
-//  Created by Ruben Nic on 5/3/19.
-//  Copyright © 2019 Ruben Nic. All rights reserved.
+//  Created by Jaey P on 10/4/20.
+//  Copyright © 2019 Jaey P. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

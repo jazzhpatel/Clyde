@@ -39,7 +39,7 @@ A: Nope. It uses private API to put a Touch Bar Item in the System Tray Touch Ba
 
 ## Author
 
-[Ruben Nic](https://rubennic.com)  
+[Jaey P](https://jaeyp.com)  
 [@RubensSandwich](https://twitter.com/RubensSandwich)
 
 ## Credit

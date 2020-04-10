@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "82B24D041E521D6000182A37"
-               BuildableName = "TouchBarKeyboard.app"
-               BlueprintName = "TouchBarKeyboard"
-               ReferencedContainer = "container:TouchBarKeyboard.xcodeproj">
+               BuildableName = "Clyde.app"
+               BlueprintName = "Clyde"
+               ReferencedContainer = "container:Clyde.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82B24D041E521D6000182A37"
-            BuildableName = "TouchBarKeyboard.app"
-            BlueprintName = "TouchBarKeyboard"
-            ReferencedContainer = "container:TouchBarKeyboard.xcodeproj">
+            BuildableName = "Clyde.app"
+            BlueprintName = "Clyde"
+            ReferencedContainer = "container:Clyde.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82B24D041E521D6000182A37"
-            BuildableName = "TouchBarKeyboard.app"
-            BlueprintName = "TouchBarKeyboard"
-            ReferencedContainer = "container:TouchBarKeyboard.xcodeproj">
+            BuildableName = "Clyde.app"
+            BlueprintName = "Clyde"
+            ReferencedContainer = "container:Clyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "82B24D041E521D6000182A37"
-            BuildableName = "TouchBarKeyboard.app"
-            BlueprintName = "TouchBarKeyboard"
-            ReferencedContainer = "container:TouchBarKeyboard.xcodeproj">
+            BuildableName = "Clyde.app"
+            BlueprintName = "Clyde"
+            ReferencedContainer = "container:Clyde.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
