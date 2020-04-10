@@ -44,16 +44,17 @@ static const NSEventModifierFlags kKeyUpModifierFlag = 0x100;
       statusItemWithLength:NSVariableStatusItemLength];
 
   // touch bar by mikicon from the Noun Project
-  NSImage *image = [NSImage imageNamed:@"menuBar"];
-  [image setTemplate:YES];
-  self.statusBar.image = image;
+  NSImage *icon = [NSImage imageNamed:@"menuBar"];
+  [icon setTemplate:YES];
+    self.statusBar.button.image = icon;
+    self.statusBar.button.highlighted = YES;
 
   self.statusBar.menu = self.statusMenu;
-  self.statusBar.highlightMode = YES;
+    self.statusBar.button.cell.highlighted = YES;
 
   NSCustomTouchBarItem *keyboard =
       [[NSCustomTouchBarItem alloc] initWithIdentifier:kKeyboardIdentifier];
-  keyboard.view = [NSButton buttonWithImage:image
+  keyboard.view = [NSButton buttonWithImage:icon
                                      target:self
                                      action:@selector(present:)];
 
