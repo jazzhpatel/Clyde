@@ -1,20 +1,20 @@
 //
 //  AppDelegate.m
-//  TouchBarKeyboard
+//  Clyde
 //
-//  Created by Ruben Nic on 5/3/19.
-//  Copyright © 2019 Ruben Nic. All rights reserved.
+//  Created by Jaey P on 10/4/20.
+//  Copyright © 2019 Jaey P. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "TouchBar.h"
 
 static const NSTouchBarItemIdentifier kCapsLockIdentifier =
-    @"com.rubennic.CapsLock";
+    @"com.jaeyp.CapsLock";
 static const NSTouchBarItemIdentifier kScrollGroupIdentifier =
-    @"com.rubennic.ScrollGroup";
+    @"com.jaeyp.ScrollGroup";
 static const NSTouchBarItemIdentifier kKeyboardIdentifier =
-    @"com.rubennic.Keyboard";
+    @"com.jaeyp.Keyboard";
 
 static const int kLeftShiftKeyCode = 56;
 static const int kRightShiftKeyCode = 60;
@@ -44,16 +44,17 @@ static const NSEventModifierFlags kKeyUpModifierFlag = 0x100;
       statusItemWithLength:NSVariableStatusItemLength];
 
   // touch bar by mikicon from the Noun Project
-  NSImage *image = [NSImage imageNamed:@"menuBar"];
-  [image setTemplate:YES];
-  self.statusBar.image = image;
+  NSImage *icon = [NSImage imageNamed:@"menuBar"];
+  [icon setTemplate:YES];
+    self.statusBar.button.image = icon;
+    self.statusBar.button.highlighted = YES;
 
   self.statusBar.menu = self.statusMenu;
-  self.statusBar.highlightMode = YES;
+    self.statusBar.button.cell.highlighted = YES;
 
   NSCustomTouchBarItem *keyboard =
       [[NSCustomTouchBarItem alloc] initWithIdentifier:kKeyboardIdentifier];
-  keyboard.view = [NSButton buttonWithImage:image
+    keyboard.view = [NSButton buttonWithImage:icon
                                      target:self
                                      action:@selector(present:)];
 

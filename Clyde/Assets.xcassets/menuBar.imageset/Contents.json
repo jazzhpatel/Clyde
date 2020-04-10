@@ -1,23 +1,26 @@
 {
   "images" : [
     {
+      "filename" : "icon 22x22.png",
       "idiom" : "universal",
-      "filename" : "menuBar.png",
       "scale" : "1x"
     },
     {
+      "filename" : "ico-1.pdf",
       "idiom" : "universal",
-      "filename" : "menuBar@2x.png",
       "scale" : "2x"
     },
     {
+      "filename" : "ico.pdf",
       "idiom" : "universal",
-      "filename" : "menuBar@3x.png",
       "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "auto-scaling" : "auto"
   }
 }
