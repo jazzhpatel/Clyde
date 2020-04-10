@@ -1,29 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "ico-2.pdf",
+      "filename" : "icon 22x22.png",
       "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "filename" : "ico-3.pdf",
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "filename" : "ico-4.pdf",
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
-      "filename" : "ico.pdf",
-      "idiom" : "mac",
       "scale" : "1x"
     },
     {
       "filename" : "ico-1.pdf",
-      "idiom" : "mac",
+      "idiom" : "universal",
       "scale" : "2x"
+    },
+    {
+      "filename" : "ico.pdf",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
@@ -31,9 +21,6 @@
     "version" : 1
   },
   "properties" : {
-    "auto-scaling" : "auto",
-    "compression-type" : "automatic",
-    "preserves-vector-representation" : true,
-    "template-rendering-intent" : "template"
+    "auto-scaling" : "auto"
   }
 }

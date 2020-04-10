@@ -54,7 +54,7 @@ static const NSEventModifierFlags kKeyUpModifierFlag = 0x100;
 
   NSCustomTouchBarItem *keyboard =
       [[NSCustomTouchBarItem alloc] initWithIdentifier:kKeyboardIdentifier];
-  keyboard.view = [NSButton buttonWithImage:icon
+    keyboard.view = [NSButton buttonWithImage:icon
                                      target:self
                                      action:@selector(present:)];
 
